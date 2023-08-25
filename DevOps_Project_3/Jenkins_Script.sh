@@ -6,7 +6,7 @@ export TF_VAR_region=$REGION
 export TF_VAR_vpc_id=$VPC_ID
 export TF_VAR_cluster_name=$CLUSTER_NAME
 
-#goint to the terraform path
+#going to the terraform path
 cd ${WORKSPACE}/DevOps_Project_3/Terraform
 
 #replacing the cluster name field in backend.tf file
