@@ -22,7 +22,6 @@ sed -i "s@devops_image@$DOCKER_IMAGE@g" nginx_deployment.yaml
 
 cat nginx_deployment.yaml
 
-
 aws eks update-kubeconfig --name mycluster --region ap-south-1 --profile euran_devops_project
 
 kubectl apply -f nginx_deployment.yaml
